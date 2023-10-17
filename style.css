@@ -1,0 +1,9 @@
+.pokemonBox {
+    display: flex;
+    justify-content:center ;  
+}
+
+.pokemonBox img{
+    width: 250px;
+}
+
