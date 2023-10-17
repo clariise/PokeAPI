@@ -23,7 +23,7 @@ fetch (`https://pokeapi.co/api/v2/pokemon/${pokemonName}`)
  alt="${CapitalizeFirstLetter(data.name)}">
 </div>
 
-<div class="pokemoninfo ms-3">
+<div class="pokemoninfo ms-2">
  <h1 class= "bg-warning">${CapitalizeFirstLetter(data.name)}</h1>
  <span> Weight: ${data.weight}</span><br>
  <span> Height: ${data.height}</span><br>
