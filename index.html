@@ -1,38 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon API</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <main>
-        <div class="container bg-warning p-5 my-5 shadow">
-            <div class="content bg-white p-4 my -4" >
-                <div class="container_" style="size: 20px;">
-                    <img src="Logo.png" alt="PokemonLogo" width="250px" class="rounded float-start">
-                    <img src="https://cdn.dribbble.com/users/740477/screenshots/6549643/pikachurundrib.gif" alt="Pikachu" width="70">
-                    <br><p style="font-style: italic;">Enjoy exploring and knowing the characters in Pokemon.</p>
-                    
-                <section class="section bg-white" >
-                    <div class= "searchBox">
-                        <input id= "pokemonName" placeholder="Enter Pokemon Name" type="text" >
-                        <button id="search">🔍</button>
-                    </div><br><br>
+      <div class="container bg-warning shadow">
+        <div class="content">
+          <img
+            src="https://assets.website-files.com/62c1627eee0defc3a1256898/62cf234679dbabe18fa50a1e_pokeapi_256%201.svg"
+            alt="PokemonLogo"
+            width="300px"
+            class="rounded float-start"
+          />
+          <br />
+        </div>
 
-                        <div class="pokemonBox">
+        <div class="row bg-white p-5">
+          <div class="col-12 col-md-6">
+            <p style="font-style: italic">
+                Enjoy exploring and knowing the characters in Pokemon.
+              </p>
+              <h1>Top Favorite</h1>
+
+              <div class="row_">
+                <div class="row-card col-12 col-sm-4">
+                    <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-blue-version/8/89/Pikachu.jpg?width=325" 
+                    alt="Avatar" 
+                    style="width:100%">
+                    <h4 class="text-center"><b>Pikachu</b></h4> 
                     </div>
-                </section>
-  
-                </div> 
-            </div>
-            <footer class="text-center">Developed by <b>Clarisse Carmona</b></footer>
-        </div>            
-    </main>
+               
+             
+                        <div class="row-card col-12 col-sm-4">
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//009.png" 
+                            alt="Avatar" 
+                            style="width:100%">
+                            <h4 class="text-center"><b>Blastoise</b></h4> 
+                           
+                            </div>
+                      
+                            <div class="row-card col-12 col-sm-4">
+                                <img src="https://img.pokemondb.net/artwork/large/mew.jpg" 
+                                alt="Avatar" 
+                                style="width:100%">
+                                <h4 class="text-center"><b>Mew</b></h4> 
+                          
+                                </div>
 
-      <script src="script.js"></script>
- 
-</body>
+                                
+              </div>
+
+         
+          </div>
+
+          <div class="col-12 col-md-6">
+            <img
+            src="https://cdn.dribbble.com/users/740477/screenshots/6549643/pikachurundrib.gif"
+            alt="Pikachu"
+            width="70"
+            />
+            <input
+            id="pokemonName"
+            placeholder="Enter Pokemon Name"
+            type="text"
+          />
+          <button id="search">🔍</button>
+        <br /><br >
+        <div class="pokemonBox"></div>
+      </div>
+      </div>
+
+    
+        <footer class="text-center">
+          Developed by <b>Clarisse Carmona</b>
+        </footer>
+
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
